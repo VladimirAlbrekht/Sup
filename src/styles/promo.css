@@ -1,0 +1,97 @@
+.promo {
+    background: url(./../images/first-screen.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.promo__content {
+    width: 100%;
+    max-width: 544px;
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 860px;
+    position: relative;
+
+}
+
+.promo__title {
+    color: #FFF;
+    font-size: 64px;
+    font-family: Comfortaa;
+    padding: 0;
+    font-weight: 30;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.promo__description {
+    margin: 0 0 20px;
+    color: #FFF;
+    font-size:24px;
+}
+
+.promo__size {
+    color: #FFF;
+    margin: 0;
+    font-size:24px;
+}
+
+.promo__bg-sign {
+    text-transform: uppercase;
+    color: #0093A1;
+    font-size: 130px;
+    font-family: Comfortaa;
+    margin: 0;
+   
+}
+
+.promo__bg-sign__backside,
+.promo__bg-sign__frontside {
+    opacity: 0.3;
+}
+
+.promo__bg-sign__frontside {
+    position: absolute;
+    left: -300px;
+    bottom: -90px;
+    z-index: 3;
+}
+.promo__bg-sign__backside {
+    position: absolute;
+    right: 35px;
+    bottom: 50px;
+}
+
+.promo__bg-sign__info {
+    color: #0093A1;
+    text-align: center;
+    font-size: 32px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 360px;
+    z-index: 3;
+    position: absolute;
+    bottom: -50px;
+    right: 35px;
+}
+
+.promo__bg-forest {
+    position: absolute;
+    background: url(../images/forest.png) repeat;
+    bottom: -400px;
+    left: 0;
+    width: 100%;
+    height: 640px;
+    z-index: 2;
+
+}

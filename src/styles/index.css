@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter:wght@400;500&display=swap');
+
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./header.css);
+@import url(./promo.css);
+@import url(./about.css);
+@import url(./store.css);
+@import url(./technology.css);
+@import url(./gallery.css);
+@import url(./footer.css);
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.video-button img {
+    width: 70px;
+    height: 70px;
+}
+
+.video-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    gap: 12px;
+    transition: all 0.5s;
+    width: 88px;
+}
+
+.video-button:hover {
+    transform: scale(1.04);
+    transition: all 0.5s;
+}

@@ -11,6 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
     publicPath: '',
+    assetModuleFilename: path.join('images', '[name].[contenthash][ext]'),
   },
   mode: 'development',
   devServer: {
@@ -21,25 +22,35 @@ module.exports = {
   },
   module: {
     rules: [{
-        test: /\.js$/,
-        use: 'babel-loader',
-        exclude: '/node_modules/'
+      test: /\.js$/,
+      use: 'babel-loader',
+      exclude: '/node_modules/'
+    },
+    {
+      test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+      type: 'asset/resource',
+    },
+    {
+      test: /\.css$/,
+      use: [MiniCssExtractPlugin.loader, {
+        loader: 'css-loader',
+        options: {
+          importLoaders: 1
+        }
       },
-      {
-        test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
-        type: 'asset/resource',
+        'postcss-loader'
+      ]
+    }, {
+      test: /\.(png|jpg|jpeg|gif)$/i,
+      type: 'asset/resource',
+    },
+    {
+      test: /\.svg$/,
+      type: 'asset/resource',
+      generator: {
+        filename: path.join('icons', '[name].[contenthash][ext]'),
       },
-      {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1
-            }
-          },
-          'postcss-loader'
-        ]
-      },
+    },
     ]
   },
   plugins: [

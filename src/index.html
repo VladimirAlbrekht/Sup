@@ -1,11 +1,232 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <!-- содержимое head -->
-  </head>
-  <body>
-   <H1>Hello</H1>
-   <div>dddfff</div>
 
-  </body>
-</html> 
+<head>
+  <!-- содержимое head -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a href="#" class="header__logo">
+        <svg class="header__image" width="189" height="35" viewBox="0 0 189 35" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M0.101562 23.1607L28.6016 0.983032V8.43272C28.6016 8.86358 28.3817 9.27676 27.9903 9.58139L5.32055 27.2221L0.101562 23.1607ZM8.82155 29.9463L28.6016 14.5541V22.0039C28.6016 22.4347 28.3817 22.8478 27.9903 23.1525L19.2597 29.9463L20.9778 31.2833L26.1969 35.3447H15.7587L14.0405 34.0076L8.82155 29.9463ZM188.809 23.1241L193.876 25.9255C191.497 28.3702 187.786 29.9427 183.616 29.9427C176.434 29.9427 170.613 25.2792 170.613 19.5264C170.613 13.7737 176.434 9.11024 183.616 9.11024C187.786 9.11024 191.497 10.6827 193.876 13.1274L188.809 15.9289C187.562 14.714 185.697 13.9404 183.616 13.9404C179.869 13.9404 176.82 16.4462 176.82 19.5264C176.82 22.6067 179.869 25.1126 183.616 25.1126C185.697 25.1126 187.562 24.339 188.809 23.1241ZM51.4425 17.5473H61.9255L59.9229 22.1305H51.4425V29.9426H45.3233V9.11033H65.6118L63.6093 13.6935H51.4425V17.5473ZM138.01 9.11033H157.898V13.6935H151.013V29.9426H144.894V13.6935H138.01V9.11033ZM160.541 29.9427H166.803V9.11033H160.541V29.9427ZM123.814 22.1119L126.912 14.5565L130.01 22.1119H123.814ZM123.011 9.11033L113.909 29.9426H120.602L121.93 26.6952H131.895L133.223 29.9426H139.916L130.813 9.11033H123.011ZM105.343 9.11033H111.462V29.9426H106.873L96.5466 18.6337V29.9426H90.4275V9.11033H95.0168L105.343 20.4193V9.11033ZM71.8795 22.1119L74.9775 14.5565L78.0754 22.1119H71.8795ZM71.0766 9.11033L61.9743 29.9426H68.6671L69.9949 26.6952H79.9601L81.2879 29.9426H87.9807L78.8785 9.11033H71.0766Z"
+            fill="red" />
+        </svg>
+
+        <!--      -->
+      </a>
+      <button class="header__button">BUY</button>
+      <a class="header__phone" href="tel:+1 777 77 77">+1 777 77 77</a>
+    </div>
+  </header>
+  <main class="main-page">
+    <section class="promo">
+      <div class="container">
+        <div class="promo__content">
+          <h1 class="promo__title">ray air pocket</h1>
+          <p class="promo__description">INFLATABLE SUP BOARD</p>
+          <p class="promo__size">SIZES: 11'6"X31"</p>
+          <p class="promo__bg-sign promo__bg-sign__frontside">free</p>
+          <p class="promo__bg-sign promo__bg-sign__backside">dom</p>
+          <p class="promo__bg-sign promo__bg-sign__info">PACK SMALL FOR BIG ADVENTURES</p>
+        </div>
+      </div>
+      <div class="promo__bg-forest"></div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="about__content">
+          <div class="about__info-container">
+            <p class="about__info">After our well received Fly Air Pocket Edition we’re adding the respective touring
+              iSUP
+              to our Range – the Ray Air Pocket Edition! The ultra travel-friendly touring iSUP is built in a tough but
+              light construction that allows it to be packed into a backpack half the size of a regular iSUP.</p>
+            <a href="https://youtu.be/Z3w8-odwJWo" target="_blank" class="video-button"><img
+                src="<%=require('./images/icon-video.png')%>" alt="sup" class="about__image">Play video</a>
+          </div>
+
+
+          <p class="about__info about__info_border">With a thinner deck pad and tough but flexible construction, the Ray
+            Air Pocket Edition
+            can be rolled and packed into a much narrower bag, making it extremely easy to store and transport. Based on
+            our highly versatile Ray Air 11’6’’, the efficient shape is packed with volume - offering safe, stable
+            paddling and superb glide – which makes it the perfect iSUP for everyone paddling some distance. With its
+            minimal weight and dimensions nothing comes close the convenient handling of our Pocket Edition iSUPs!</p>
+          <img src="<%=require('./images/sup.png')%>" alt="sup" class="about__image">
+        </div>
+        <div class="about__specs">
+          <h2 class="about__title">Specs</h2>
+          <ul class="about__list">
+            <li class="about__item">
+              <p class="about__subtitle">BOARD</p>
+              <p class="about__description">RAY AIR POCKET 11'6"X31"</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">VOLUME</p>
+              <p class="about__description">299 L</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">WIDTH</p>
+              <p class="about__description">31" / 78.7 CM</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">LENGTH</p>
+              <p class="about__description">11'6'' / 350.5 CM</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">THICKNESS</p>
+              <p class="about__description">6” / 15 CM</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">WEIGHT</p>
+              <p class="about__description">8.5 KG</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">FITTINGS</p>
+              <p class="about__description">2X FCS FIN SYSTEM / 2 X 4.5" CLICK FIN</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">REC. USER WEIGHT</p>
+              <p class="about__description">RAY AIR POCKET 11'6"X31"</p>
+            </li>
+            <li class="about__item">
+              <p class="about__subtitle">UP TO 100 KG</p>
+              <p class="about__description">NO</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </section>
+    <section class="store">
+      <div class="container">
+        <h2 class="store__title ">RAY AIR POCKET</h2>
+        <div class="store__container">
+          <div class="store__content">
+            <div class="store__content-description">
+              <ul class="store__list">
+                <li class="store__item">
+                  <p class="store__subtitle store__subtitle_color">CLICK FINS</p>
+                  <p class="store__info">Comes with two 4.5’’ Click Fins – no tools required – fit and remove in seconds
+                  </p>
+                </li>
+                <li class="store__item">
+                  <p class="store__subtitle">REDUCED DECK PAD</p>
+                  <p class="store__info">Reduced area deck pad in standing area to aid packing</p>
+                </li>
+                <li class="store__item">
+                  <p class="store__subtitle">BACKPACK</p>
+                  <p class="store__info">Compact Pocket backpack with easy entry zipper for board, paddle, pump and
+                    accessories (fits paddle and also regular pump)</p>
+                </li>
+                <li class="store__item">
+                  <p class="store__subtitle">TOURING SHAPE</p>
+                  <p class="store__info">Tried and tested shape based on our popular Ray Air 11’6’’</p>
+                </li>
+                <li class="store__item">
+                  <p class="store__subtitle">EXTREMELY PORTABLE</p>
+                  <p class="store__info">Extremely portable, the ultimate travel companion</p>
+                </li>
+              </ul>
+              <img src="<%=require('./images/green-star.png')%>" alt="" class="store__content-image">
+            </div>
+            <button class="store__button">BUY</button>
+          </div>
+          <img src="<%=require('./images/offer-1.jpg')%>" alt="" class="store__image">
+        </div>
+      </div>
+      <div class="store__background"></div>
+    </section>
+    <section class="technology">
+      <div class="technology__bg"></div>
+      <div class="container">
+        <div class="technology__container">
+          <div class="techology__info">
+            <h2 class="techonoly__title">MICRO TECHNOLOGY</h2>
+            <ol class="techonoly__list">
+              <li class="techology__item">First PVC rail layer</li>
+              <li class="techology__item">Second PVC rail layer</li>
+              <li class="techology__item">Thin diamond grooving split-pad</li>
+              <li class="techology__item">Strong Tarpaulin layer </li>
+              <li class="techology__item">V-Drop Stitch core</li>
+            </ol>
+            <p class="techonology__description">Our new Micro technology provides a featherweight and quality
+              construction that can be rolled and packed into a backpack half the width of a standard iSUP package. The
+              reduced pad and our twin Click Fin system make it possible to have a regular sized iSUP packed into
+              minimal space.</p>
+          </div>
+          <div class="technology__visual-content">
+            <a href="https://youtu.be/Z3w8-odwJWo" target="_blank" class="video-button technology__button"><img
+                src="<%=require('./images/icon-video.png')%>" alt="sup" class="about__image">Play video</a>
+            <div class="technology__gallery">
+              <img src="<%=require('./images/technology-1.jpg')%>" alt=""
+                class="technology__image technology__image_large">
+              <img src="<%=require('./images/technology-2.jpg')%>" alt=""
+                class="technology__image technology__image_medium">
+              <img src="<%=require('./images/technology-3.jpg')%>" alt=""
+                class="technology__image technology__image_small">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery__container">
+          <img src="<%=require('./images/gallery-1.jpg')%>" alt="" class="gallery__image gallery__image_1">
+          <img src="<%=require('./images/gallery-2.jpg')%>" alt="" class="gallery__image gallery__image_2">
+          <img src="<%=require('./images/gallery-3.jpg')%>" alt="" class="gallery__image gallery__image_3">
+          <img src="<%=require('./images/gallery-4.jpg')%>" alt="" class="gallery__image gallery__image_4">
+          <img src="<%=require('./images/gallery-5.jpg')%>" alt="" class="gallery__image gallery__image_5">
+          <span class="gallery__info">ENJOY YOUR LIFE</span>
+          <img src="<%=require('./images/gallery-6.jpg')%>" alt="" class="gallery__image gallery__image_6">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__header">
+        <h2 class="footer__title">CONTACT US</h2>
+        <a href="#" class="footer__logo">
+          <svg width="371" height="82" viewBox="0 0 371 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0_24_101" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="371"
+              height="83">
+              <path d="M0 0.967773H370.64V82.9678H0V0.967773Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_24_101)">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 53.8922L54.5131 0.967773V18.7456C54.5131 19.7738 54.0925 20.7598 53.3437 21.4867L9.98256 63.5841L0 53.8922ZM16.679 70.0852L54.5131 33.3536V51.1315C54.5131 52.1596 54.0925 53.1456 53.3437 53.8725L36.6446 70.0852L39.9308 73.2757L49.9136 82.9678H29.9481L26.6616 79.7771L16.679 70.0852ZM360.948 53.8047L370.64 60.4901C366.089 66.3241 358.99 70.0766 351.015 70.0766C337.279 70.0766 326.143 58.9477 326.143 45.2194C326.143 31.4911 337.279 20.3624 351.015 20.3624C358.99 20.3624 366.089 24.1148 370.64 29.9489L360.948 36.6343C358.562 33.7351 354.995 31.8889 351.015 31.8889C343.847 31.8889 338.016 37.8688 338.016 45.2194C338.016 52.57 343.847 58.5501 351.015 58.5501C354.995 58.5501 358.562 56.7039 360.948 53.8047ZM98.2016 40.4965H118.253L114.422 51.4338H98.2016V70.0764H86.4974V20.3626H125.304L121.474 31.2997H98.2016V40.4965ZM263.783 20.3626H301.822V31.2997H288.655V70.0764H276.95V31.2997H263.783V20.3626ZM306.878 70.0766H318.857V20.3626H306.878V70.0766ZM236.63 51.3894L242.556 33.3592L248.481 51.3894H236.63ZM235.094 20.3626L217.684 70.0764H230.486L233.026 62.3267H252.086L254.626 70.0764H267.427L250.017 20.3626H235.094ZM201.299 20.3626H213.004V70.0764H204.225L184.474 43.089V70.0764H172.77V20.3626H181.548L201.299 47.3501V20.3626ZM137.292 51.3894L143.218 33.3592L149.144 51.3894H137.292ZM135.757 20.3626L118.346 70.0764H131.148L133.688 62.3267H152.748L155.288 70.0764H168.09L150.679 20.3626H135.757Z"
+                fill="white" />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <form action="post" class="footer__form">
+        <input type="text" class="footer__input" placeholder="name" id="name">
+        <input type="email" class="footer__input" placeholder="e-mail" id="email">
+        <button class="footer__button" type="submit">SEND</button>
+      </form>
+      <a href="#" class="footer__link">INSTAGRAM</a>
+      <div class="footer__gallery">
+        <img src="<%=require('./images/footer-1.jpg')%>" alt="" class="footer__image">
+        <img src="<%=require('./images/footer-2.jpg')%>" alt="" class="footer__image">
+        <img src="<%=require('./images/footer-3.jpg')%>" alt="" class="footer__image">
+        <img src="<%=require('./images/footer-4.jpg')%>" alt="" class="footer__image">
+      </div>
+      <div class="footer__info">
+        <span class="footer__copyright">COPYRIGHT 2022</span>
+        <span class="footer__rights">ALL RIGHTS RESERVED</span>
+        <span class="footer__cookie-settings">COOKIE SETTINGS</span>
+        <span class="footer__privacy">PRIVACY STATEMENTS</span>
+        <span class="footer__contact">CONTACT</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
