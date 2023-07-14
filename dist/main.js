@@ -1,0 +1,1 @@
+(()=>{"use strict";var o=document.querySelectorAll(".about__item"),e=Array.from(o);console.log(o),console.log(e)})();
