@@ -1,9 +1,9 @@
 .about {
-    padding-top: 300px;
+    padding-top: 180px;
     padding-bottom: 50px;
     background: url(../images/about-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position-y: 140px;
+    background-size: contain;
+    background-position: 0 145px;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -17,32 +17,32 @@
     color: #fff;
     font-family: Inter;
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 
 .about__info {
-    margin-top: 240px;
+    margin-top: 288px;
 }
 
 .about__info_border {
     border-bottom: 1px solid #fff;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 .about__info-container {
     display: flex;
     flex-direction: column;
-    gap: 82px;
+    gap: 95px;
 }
 
 
 
 .about__specs {
-    margin-top: 500px;
+    margin-top: 600px;
     display: flex;
     color: #fff;
     align-items: center;
-    gap: 162px;
+    gap: 200px;
 }
 
 .about__title {
@@ -53,6 +53,9 @@
 }
 
 .about__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -77,6 +80,10 @@
 
 .about__subtitle {
   min-width: 180px;
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+
 }
 
 .about__description {

@@ -1,11 +1,11 @@
 .store {
-    padding: 150px 0 200px;
+    padding: 90px 0 200px;
 }
 
 .store__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 80px;
+    gap: 30px;
 }
 
 .store__content-description {
@@ -21,7 +21,7 @@
     font-size: 60px;
     line-height: 67px;
     color: #0093A1;
-    margin-bottom: 55px;
+    margin-bottom: 56px;
 }
 
 .store__list {
@@ -30,7 +30,9 @@
     flex-direction: column;
     gap: 25px;
     padding: 0;
-    min-width: 292px
+    max-width: 270px;
+    width: 100%;
+    margin: 0;
 }
 
 .store__item {
@@ -63,6 +65,7 @@
 .store__content-image {
     width: 100%;
     height: 100%;
+    max-width: 200px;
     transition: all 0.5s;
 }
 
@@ -96,10 +99,11 @@
 
 .store__image {
     width: 100%;
-    max-width: 600px;
-    max-height: 627px;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    max-width: 600px;
+    height: auto;
+
 }
 
 .store__background {

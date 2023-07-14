@@ -1,6 +1,6 @@
 .footer {
     background-color: #262C27;
-    padding: 100px 0 82px;
+    padding: 50px 0 82px;
 }
 
 .footer__header {
@@ -13,6 +13,7 @@
     color: #FFF;
     font-size: 60px;
     font-family: Comfortaa;
+    margin-bottom: 40px;
 }
 
 .footer__logo path {
@@ -61,11 +62,15 @@
     width: 193px;
     height: 42px;
     text-decoration: none;
+    transition: all 0.5s;
+    font-size: 24px;
 }
 
 .footer__button:hover {
     cursor: pointer;
-
+    background-color: #0093A1;
+    color: #FFF;
+    transition: all 0.5s;
 }
 
 .footer__link {
@@ -79,7 +84,7 @@
 .footer__gallery {
     padding: 30px 0 50px;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     justify-content: space-between;
 }
 

@@ -2,7 +2,7 @@
     background: url(../images/technology-bg.png) no-repeat;
     background-size: contain;
     position: relative;
-    padding-top: 500px;
+    padding-top: 450px;
     padding-bottom: 100px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .techology__info {
-    margin-top: 150px;
+    margin-top: 205px;
     display: flex;
     flex-direction: column;
 }
@@ -31,7 +31,7 @@
     color: #262C27;
     font-size: 60px;
     font-family: Comfortaa;
-    margin-bottom: 62px;
+    margin-bottom: 46px;
 }
 
 .techonoly__list {
@@ -39,6 +39,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding-left: 25px;
 }
 
 .techology__item {
@@ -61,7 +62,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 285px;
+    gap: 360px;
 }
 
 .technology__button {
@@ -80,7 +81,7 @@
     display: block;
     position: absolute;
     top: -75px;
-    left: -34px;
+    left: -42px;
     width: 98%;
     height: 100%;
     border: 3px solid rgba(38, 44, 39, 1);
